@@ -17,7 +17,7 @@ class Path():
     project= pathlib.Path.cwd()
     # Basispfad des Datensets
     # dataset = pathlib.Path.cwd() / 'CRAG_v2/CRAG'
-    dataset = project / 'CRAG_v2/CRAG/'
+    dataset = project / '../___Datasets/CRAG_v2/CRAG/'
     # Pfad für trainierte Modelle
     model= project / 'models/'
     # ----------------------------
