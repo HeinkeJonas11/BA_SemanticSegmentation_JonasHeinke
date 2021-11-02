@@ -65,7 +65,7 @@ class Path():
     # get the project directory
     project= pathlib.Path.cwd()
     # Base path of the data set -> enter here!
-    dataset = pathlib.Path('../___Datasets/CRAG_v2/')
+    dataset = pathlib.Path('../___Datasets/CRAG_v2/CRAG/')
     # Training images and masks ------------------------------
     trainimages=dataset / 'train/Images/'
     trainmasks=dataset / 'train/Annotation/'
